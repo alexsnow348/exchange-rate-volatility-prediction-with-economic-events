@@ -35,3 +35,17 @@ Paper Three: [News announcements, market activity and volatility in the euro/dol
 4. For scheduled announcements, an abnormal increase in volatility during the pre-announcement period can be linked to speculative trades initiated on the basis of anticipations, or to traders who close their positions to avoid ‘surprises’when the news is released.
 
 5.  Announcements have a significant positive effect, but for a very short period of time
+
+
+Paper Four: [News implied volatility and long-term foreign exchange market volatility](papers/paper4.pdf)
+
+1. Stock Markets and Government have a more significantly positive ,long-run spillover impact on the volatility of currencies.
+
+2. Although natural disasters and wars are rare,the news regarding them produces highly destructive impacts on society and exerts an influence on relevant currencies.
+
+
+Paper Five: [Macroeconomic announcements and price discovery in theforeign exchange market](papers/paper5.pdf)
+
+1. Macroeconomic announcements affect the pattern of price discovery across different markets.
+
+2. A significant increase in price discovery before the announcement suggests the possibility of information leakage, while enhanced price discovery efficacy after the announcement suggests that prices gradually adjust to new information, not just immediately respond to the arrival of announcements.
