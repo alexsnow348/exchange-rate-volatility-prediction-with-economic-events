@@ -1,6 +1,6 @@
 ### Findings
 
-Paper One: [Impact of macroeconomic announcements on foreign exchange volatility: Evidence from South Africa](papers/paper1.pdf)
+Paper One: [Impact of macroeconomic announcements on foreign exchange volatility: Evidence from South Africa](paper1.pdf)
 
 1. After the release of a news announcement, the level of foreign exchange volatility rises. This is independent of whether the news item surprised the market or not.
 
@@ -13,7 +13,7 @@ Paper One: [Impact of macroeconomic announcements on foreign exchange volatility
 5. Finally, investors do not always act in rational manner, especially when faced with multiple news items that are contradictory to each other.
 
 
-Paper Two: [A Survey of Announcement Effects on Foreign Exchange Volatility and Jumps by Federal Reserve Bank of St. Louis](papers/paper2.pdf)
+Paper Two: [A Survey of Announcement Effects on Foreign Exchange Volatility and Jumps by Federal Reserve Bank of St. Louis](paper2.pdf)
 
 1. Scheduled and unscheduled news typically raises volatility for about an hour and often causes price discontinuities or jumps.
 
@@ -24,7 +24,7 @@ Paper Two: [A Survey of Announcement Effects on Foreign Exchange Volatility and 
 4. Volatility might depend on a number of factors: the precision of the information in the news, the state of the business cycle, and the heterogeneity of traders’ beliefs.
 
 
-Paper Three: [News announcements, market activity and volatility in the euro/dollar foreign exchange market](papers/paper3.pdf)
+Paper Three: [News announcements, market activity and volatility in the euro/dollar foreign exchange market](paper3.pdf)
 
 1. Volatility increases in the pre-announcement periods, particularly before scheduled events.
 
@@ -37,14 +37,14 @@ Paper Three: [News announcements, market activity and volatility in the euro/dol
 5.  Announcements have a significant positive effect, but for a very short period of time.
 
 
-Paper Four: [News implied volatility and long-term foreign exchange market volatility](papers/paper4.pdf)
+Paper Four: [News implied volatility and long-term foreign exchange market volatility](paper4.pdf)
 
 1. Stock Markets and Government have a more significantly positive, long-run spillover impact on the volatility of currencies.
 
 2. Although natural disasters and wars are rare, the news regarding them produces highly destructive impacts on society and exerts an influence on relevant currencies.
 
 
-Paper Five: [Macroeconomic announcements and price discovery in theforeign exchange market](papers/paper5.pdf)
+Paper Five: [Macroeconomic announcements and price discovery in theforeign exchange market](paper5.pdf)
 
 1. Macroeconomic announcements affect the pattern of price discovery across different markets.
 
