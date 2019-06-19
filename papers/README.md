@@ -30,7 +30,7 @@ Paper Three: [News announcements, market activity and volatility in the euro/dol
 
 2. Market activity also significantly impacts return volatility as expected by the theoretical literature on the order flow.
 
-3. Used EGARCH model, GARCH models,  flexible Fourier form
+3. Used **EGARCH model, GARCH models**,  flexible Fourier form
 
 4. For scheduled announcements, an abnormal increase in volatility during the pre-announcement period can be linked to speculative trades initiated on the basis of anticipations, or to traders who close their positions to avoid ‘surprises’when the news is released.
 
@@ -49,3 +49,10 @@ Paper Five: [Macroeconomic announcements and price discovery in theforeign excha
 1. Macroeconomic announcements affect the pattern of price discovery across different markets.
 
 2. A significant increase in price discovery before the announcement suggests the possibility of information leakage, while enhanced price discovery efficacy after the announcement suggests that prices gradually adjust to new information, not just immediately respond to the arrival of announcements.
+
+Paper Six: [Long Short-Term Memory Networks for CSI300 Volatility prediction with Baidu Search Volume](paper6.pdf)
+
+1. Applied Long Short Term Memory neural network to forecast CSI300 volatility using those search volume data.
+
+2. Compared to the benchmark **GARCH model**, our forecast is more accurate, which demonstrates the **effectiveness
+of the LSTM neural network in volatility forecasting**.
