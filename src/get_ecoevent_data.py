@@ -1,7 +1,7 @@
 """Get Key Economic Event Notification Details.
 
-The script will write the economic events details info into csv file.
-The economic event info are being scraping from Investing.com.
+The script will write the current week economic events details info into csv file.
+The economic event details info are being scraping from Investing.com.
 (https://sslecal2.forexprostools.com/)
 
 Example:
@@ -28,20 +28,22 @@ class API(object):
     def utc_to_local(self, utc_dt):
         utc_dt = datetime.strptime(utc_dt, "%Y-%m-%d %H:%M:%S")
         local = utc_dt.replace(tzinfo=timezone.utc).astimezone(tz=None)
-        return local.strftime("%Y-%m-%d %H:%M:%S")
+        return local.timestamp()
 
     def formatData(self, date, major):
         # impactful_data = self.data_df.loc[self.data_df['impact'] == 3].copy()
         impactful_data = self.data_df
         impactful_data['timestamp_local'] = impactful_data['timestamp'].apply(
             lambda x: self.utc_to_local(x))
-        impactful_data['date'] = impactful_data['timestamp_local'].apply(
-            lambda x: x[:10])
         impactful_data['major'] = impactful_data['economy'].apply(
             lambda x: True if x in major else False)
         impactful_data = impactful_data.loc[
             impactful_data['major'] == True].copy()
-        impactful_data.to_csv("../data/Week_25_2019_Eco_Event.csv", index=False)
+        impactful_data = impactful_data[["actual",	"economy",	"forecast",
+                                         "impact",	"name",	"previous",
+                                         "timestamp_local"]].copy()
+
+        impactful_data.to_csv("../data/Eco_Event_Week_25.csv", index=False)
 
 
 if __name__ == '__main__':
