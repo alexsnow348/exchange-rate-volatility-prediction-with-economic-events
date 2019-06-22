@@ -3,8 +3,8 @@ import yfinance as yf
 # yf.pdr_override()  # <== that's all it takes :-)
 
 CURRCY_PAIR_CODE = "EURUSD=X"
-START_DATE = "2019-06-15"
-END_DATE = "2019-06-19"
+START_DATE = "2019-06-19"
+END_DATE = "2019-06-22"
 
 # download
 data = yf.download(  # or pdr.get_data_yahoo(...
@@ -20,4 +20,4 @@ data = yf.download(  # or pdr.get_data_yahoo(...
     end=END_DATE
 )
 # write data to csv file
-data.to_csv('../data/EURUSD_20190615_to_20190619.csv')
+data.to_csv('../data/EURUSD_20190619_to_20190622.csv')

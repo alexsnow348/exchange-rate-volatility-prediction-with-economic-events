@@ -1,4 +1,4 @@
-# Volatility with macroeconomic announcements
+# Volatility Prediction with macroeconomic announcements
 
 ### Question:
 
@@ -18,3 +18,11 @@ Then the traders in his own personal beliefs believes that economic events will 
 Then again, the trader is so sure of himself or herself that economic announcements will be in his or her favor, the trader  will choose **to high load the position**. (***Before the announcements-Greed***)
 
 Therefore, from that analysis, it can be assumed that the effects on volatility might be taking place **before and during** on high peak, and  **after** while the market is trying to correct in order to reflect the announcements.
+
+After carefully [Literature](papers/README.md) analysis, I have found that **LSTM** model is performaing better than **GARCH** which normally used in such prediction.
+
+
+#### Experiment
+
+As an experiment, I have selected simple LSTM model to train and test for  EURUSD one week data gather from **Yahoo Finance**.
+And As for economic event data, I have gather info from **Investing.com** .

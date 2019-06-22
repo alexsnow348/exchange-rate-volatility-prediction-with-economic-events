@@ -1,13 +1,11 @@
-"""Key Economic Event Notification Engine.
-The engine will notify the impacful infomation to the required agent.
+"""Get Key Economic Event Notification Details.
+
+The script will write the economic events details info into csv file.
+The economic event info are being scraping from Investing.com.
+(https://sslecal2.forexprostools.com/)
+
 Example:
-        $ python main.py
-Todo:
-    * Get level 3 impactful data (done)
-    * Change timezone to locals (done)
-    * Get list of time and change it into 3 minutes before timestamp (done)
-    * Send twillo message to phone when current time is in the time list. (done)
-    * Make one API call per day only
+        $ python get_ecoevent_data.py
 """
 
 import requests as rq
