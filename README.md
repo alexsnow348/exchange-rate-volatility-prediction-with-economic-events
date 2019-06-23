@@ -24,5 +24,38 @@ After carefully [Literature](papers/README.md) analysis, I have found that **LST
 
 #### Experiment
 
-As an experiment, I have selected simple LSTM model to train and test for  EURUSD one week data gather from **Yahoo Finance**.
-And As for economic event data, I have gather info from **Investing.com** .
+As an experiment, I have selected simple **LSTM** model to train and test for  EURUSD one week data gather from **Yahoo Finance**.
+And As for economic event data, I have gather info from **Investing.com**.
+
+As for current experiment, I only focused on impact level of announcements for economic events.
+
+##### Economic events - Week 25 2019
+
+1. Impact Level **High** ==> 3
+   Impact Level **Median** ==> 2
+   Impact Level **Low** ==> 1
+
+2. If there is one than one announcements going to make  with the same timestamp, then take the **MAX** impact value.
+
+3. The value will be expanded into within 60 mins timeframe.
+  For example, if there is announcements on 9:00 AM with the impact value will be spreading out between 8:30 AM to 9:30 AM.
+
+##### EURUSD FX data - Week 25 2019
+
+I have gathered one mins interval data for EURUSD from Yahoo Finance.
+
+### Result Discussion
+
+I have run experiment with  LSTM models with volatility data.
+
+Both models are expired along with volatility data plus economic event announcements data.
+
+
+### Model Without Economic event
+
+![ Model Without Economic event](model/without_ecoevent/model_2_without.png)
+
+
+### Model With Economic event
+
+![ Model With Economic event](model/with_ecoevent/model_2_with.png)
