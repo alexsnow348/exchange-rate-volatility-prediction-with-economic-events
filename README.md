@@ -29,7 +29,7 @@ And As for economic event data, I have gather info from **Investing.com**.
 
 As for current experiment, I only focused on impact level of announcements for economic events.
 
-##### Economic events - Week 25 2019
+#### Economic events - Week 25 2019
 
 1. Impact Level **High** ==> 3
    Impact Level **Median** ==> 2
@@ -40,7 +40,7 @@ As for current experiment, I only focused on impact level of announcements for e
 3. The value will be expanded into within 60 mins timeframe.
   For example, if there is announcements on 9:00 AM with the impact value will be spreading out between 8:30 AM to 9:30 AM.
 
-##### EURUSD FX data - Week 25 2019
+#### EURUSD FX data - Week 25 2019
 
 I have gathered one mins interval data for EURUSD from Yahoo Finance.
 
@@ -59,3 +59,12 @@ Both models are expired along with volatility data plus economic event announcem
 ### Model With Economic event
 
 ![ Model With Economic event](model/with_ecoevent/model_2_with.png)
+
+
+### Limitation
+
+1. More data might make better performance.
+
+2. Currently, only utilized one info from economic events.
+
+3. Different hyper parameters tuning might be improved the performance.
